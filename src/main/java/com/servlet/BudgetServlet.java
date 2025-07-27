@@ -29,7 +29,7 @@ public class BudgetServlet extends HttpServlet {
         double balance = salary - expense;
         double remainingAfterSaving = balance - saving;
 
-        // Save to DB
+      
         Budget budget = new Budget();
         budget.setUsername(user.getUsername());
         budget.setSalary(salary);
@@ -38,7 +38,7 @@ public class BudgetServlet extends HttpServlet {
         budget.setRemaining(remainingAfterSaving);
         budget.setMonthYear(LocalDate.now().format(DateTimeFormatter.ofPattern("MMMM yyyy")));
 
-        BudgetDAO.saveBudget(budget); // save to DB
+        BudgetDAO.saveBudget(budget); 
 
         request.setAttribute("salary", salary);
         request.setAttribute("saving", saving);
