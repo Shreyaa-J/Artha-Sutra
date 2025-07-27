@@ -51,4 +51,4 @@ A JSP + Servlet-based web application to help users track expenses and plan thei
 2. Set up MySQL and create tables (`users`, `expenses`, `budget`) as per schema.
 3. Configure your DB credentials in `DBConnection.java`.
 4. Run the project on Apache Tomcat server.
-5. Open your browser and go to:
+
