@@ -1,4 +1,4 @@
-# 💼 Daily Expense Tracker
+# 💼 Artha Sutra - Daily Expense Tracker
 
 A JSP + Servlet-based web application to help users track expenses and plan their monthly budgets using MySQL.
 
